@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Animexa - turn your ideas into animated stories with AI." />
+  <title>Animexa — Animate your imagination</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/extra.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <nav class="nav wrap">
+    <a class="brand" href="#home"><span class="brand-mark">A</span> animexa</a>
+    <div class="nav-links"><a href="#features">Features</a><a href="#templates">Templates</a><a href="#workflow">How it works</a><a href="#pricing">Pricing</a></div>
+    <div class="nav-actions"><button class="login">Log in</button><button class="button small" data-scroll="studio">Start creating <i data-lucide="arrow-up-right"></i></button></div>
+    <button class="menu" aria-label="Open menu"><i data-lucide="menu"></i></button>
+  </nav>
+
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> AI animation studio</p>
+        <h1>Your idea,<br><em>in motion.</em></h1>
+        <p class="intro">From a sentence to a cinematic story. Animexa brings your characters, worlds, voiceovers and scenes to life—without the complicated software.</p>
+        <div class="hero-buttons"><button class="button" data-scroll="studio">Create your animation <i data-lucide="sparkles"></i></button><a class="text-link" href="#workflow">See how it works <i data-lucide="arrow-down-right"></i></a></div>
+        <div class="avatars"><div class="faces"><b>J</b><b>M</b><b>A</b><b>R</b></div><span>Trusted by <strong>12,000+ creators</strong><br>making stories every day.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit one"></div><div class="orbit two"></div>
+        <div class="scene-card">
+          <div class="scene-top"><span class="live"><i></i> GENERATING</span><button><i data-lucide="more-horizontal"></i></button></div>
+          <div class="sun"></div><div class="city city-back"></div><div class="city city-front"></div>
+          <div class="robot"><div class="head"><span></span><span></span></div><div class="body"></div><div class="arm left"></div><div class="arm right"></div><div class="leg left"></div><div class="leg right"></div></div>
+          <p class="scene-caption">CYBER CITY <span>•</span> SCENE 04</p>
+        </div>
+        <div class="float-card card-voice"><div class="icon-box"><i data-lucide="audio-lines"></i></div><div><b>Voice ready</b><span>English · Luna</span></div><i data-lucide="check"></i></div>
+        <div class="float-card card-style"><div class="style-swatch"></div><div><b>Visual style</b><span>Dreamy 2D</span></div><i data-lucide="chevron-down"></i></div>
+      </div>
+    </section>
+
+    <section class="studio-section" id="studio"><div class="wrap">
+      <div class="section-label">01 / CREATE</div>
+      <div class="studio"><div class="studio-head"><div><span class="eyebrow"><span></span> ANIMEXA STUDIO</span><h2>What will you create?</h2></div><span class="status"><i></i> AI engine online</span></div>
+        <div class="prompt-box"><textarea id="prompt" placeholder="Describe your animation idea...">A small robot discovers a magical forest glowing under the moonlight.</textarea><button id="generate" class="generate">Generate <i data-lucide="arrow-up-right"></i></button></div>
+        <div class="studio-options"><div><span>STYLE</span><button class="option active">Illustrated <i data-lucide="chevron-down"></i></button></div><div><span>DURATION</span><button class="option">30 seconds <i data-lucide="chevron-down"></i></button></div><div><span>LANGUAGE</span><button class="option">English <i data-lucide="chevron-down"></i></button></div><p><i data-lucide="sparkles"></i> Uses 4 credits</p></div>
+      </div></div>
+    </section>
+
+    <section class="features wrap" id="features"><div class="feature-title"><div class="section-label">02 / BUILT FOR STORYTELLERS</div><h2>Everything your<br>story needs.</h2><p>A complete creative suite that takes you from first spark to final frame.</p></div><div class="feature-grid">
+      <article class="feature main-feature"><span class="icon-box"><i data-lucide="wand-sparkles"></i></span><h3>Prompt to storyboard</h3><p>Turn a simple idea into a complete visual narrative with AI-crafted scenes and shots.</p><div class="story-lines"><span>01&nbsp; The unexpected visitor</span><span>02&nbsp; Into the unknown</span><span>03&nbsp; A world revealed</span></div></article>
+      <article class="feature"><span class="icon-box purple"><i data-lucide="users-round"></i></span><h3>Characters with soul</h3><p>Create unique, expressive characters that stay beautifully consistent throughout every scene.</p><div class="mini-people"><i></i><i></i><i></i></div></article>
+      <article class="feature"><span class="icon-box peach"><i data-lucide="captions"></i></span><h3>Speak every language</h3><p>Natural AI voiceovers, lip sync, music and subtitles in 40+ languages.</p><div class="wave">▁▂▅▃▆█▅▂▃▇▃▁</div></article>
+    </div></section>
+
+    <section class="templates" id="templates"><div class="wrap"><div class="templates-head"><div><div class="section-label">03 / START WITH A SPARK</div><h2>Made to be remixed.</h2></div><a class="text-link" href="#">Explore all templates <i data-lucide="arrow-up-right"></i></a></div><div class="template-grid">
+      <article class="template coral"><div class="template-art t1"><div></div><div></div><i></i></div><div class="template-info"><span>EXPLAINER</span><h3>Big ideas, simply told</h3><button>Use template <i data-lucide="arrow-up-right"></i></button></div></article>
+      <article class="template blue"><div class="template-art t2"><i></i><b></b><em></em></div><div class="template-info"><span>SOCIAL STORY</span><h3>A moment worth sharing</h3><button>Use template <i data-lucide="arrow-up-right"></i></button></div></article>
+      <article class="template yellow"><div class="template-art t3"><div class="planet"></div><i></i><i></i></div><div class="template-info"><span>EDUCATION</span><h3>Learn beyond the page</h3><button>Use template <i data-lucide="arrow-up-right"></i></button></div></article>
+    </div></div></section>
+
+    <section class="workflow wrap" id="workflow"><div class="workflow-visual"><div class="path"></div><div class="workflow-node n1"><i data-lucide="message-square-text"></i><b>Your idea</b></div><div class="workflow-node n2"><i data-lucide="bot"></i><b>Our AI</b></div><div class="workflow-node n3"><i data-lucide="clapperboard"></i><b>Your story</b></div></div><div class="workflow-copy"><div class="section-label">04 / SIMPLE BY DESIGN</div><h2>Less clicking.<br><em>More creating.</em></h2><p>Describe what you see in your mind. Animexa handles the scenes, pacing, motion, sound and polish—so you can stay focused on the story.</p><a href="#studio" class="button">Try the AI Studio <i data-lucide="arrow-up-right"></i></a></div></section>
+
+    <section class="pricing" id="pricing"><div class="wrap"><div class="pricing-intro"><div class="section-label">05 / CREATE WITHOUT LIMITS</div><h2>Start making<br>something <em>magic.</em></h2></div><div class="price-card"><span class="popular">MOST POPULAR</span><h3>Creator</h3><p>For storytellers making their next big thing.</p><div class="price"><sup>₹</sup>999 <small>/ month</small></div><ul><li><i data-lucide="check"></i> 30 minutes of AI animation</li><li><i data-lucide="check"></i> Full HD exports</li><li><i data-lucide="check"></i> Premium voices & music</li><li><i data-lucide="check"></i> Commercial use license</li></ul><button class="button">Start creating <i data-lucide="arrow-up-right"></i></button></div></div></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#home"><span class="brand-mark">A</span> animexa</a><p>© 2026 Animexa. Made for imagination.</p><div><a href="#">Instagram</a><a href="#">Youtube</a><a href="#">X / Twitter</a></div></footer>
+  <div class="toast" id="toast"><i data-lucide="sparkles"></i><span>Your animation is now being created!</span></div>
+  <script src="https://unpkg.com/lucide@latest"></script><script src="js/script.js"></script>
+</body>
+</html>
